@@ -1,0 +1,89 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    width: 800px;
+    min-height: 90vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+
+h3 {
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.section {
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+
+.name-section {
+    background-color: #f8d7da;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px 20px;
+    
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.submit-btn:hover {
+    background-color: #b71c1c;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+    border-color: #d32f2f;
+    outline: none;
+}
+
+.dropdown select {
+    margin-top: 40px;
+    width: 250px;
+    height: 35px;
+}
